@@ -1,0 +1,167 @@
+.table-container{
+    /* border:1px solid black; */
+    height:1000px;
+
+    
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color: rgb(43, 43, 236);
+    
+}
+.select-container{
+    display: inline-block;
+    min-width: 400px;
+    height:50px;
+    margin-left: 5px;
+    padding-left:10px;
+    border:1px solid rgb(97, 235, 62);
+    margin-top:5px ;
+    justify-content: space-between;
+    font-size: 16px;
+    background-color: aliceblue;
+    margin-bottom: 5px;
+    border-radius: 5px 10px 5px 10px;
+    
+}
+.select-box{
+    border: 1px rgb(72, 243, 72);
+    appearance: none;
+    padding: 0 30px 0 15px;
+    width: 100%;
+    background:whitesmoke;
+    font-size: 16px;
+    text-align: left;
+    margin-top:14px;
+    background-color: white;
+    border-radius: 5px 10px 5px 10px;
+}
+img {
+    
+    display: flex;
+    margin-left :  auto;
+    margin-right : auto;
+    height: 450px;
+    width: 400px;
+}
+.select-container:focus{
+    outline:1px solid rgb(29, 216, 38);
+}
+   label{
+    color: rgb(68, 66, 216);
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   } 
+   input{
+    margin-left: 5px;
+   }
+.items{
+    display: inline-block;
+    min-width: 900px;
+    height:50px;
+    margin-left: 10px;
+    padding-left:10px;
+    border:1px solid rgb(97, 235, 62);
+    margin-top:5px ;
+    justify-content: space-between;
+    font-size: 16px;
+    background-color: aliceblue;
+    margin-bottom: 5px;
+    border-radius: 5px 10px 5px 10px;
+    outline: 1px rgb(72, 243, 72);
+    
+}
+.items:active{
+    outline: 1px rgb(72, 243, 72);
+}
+option{
+    color:grey;
+}
+select{
+    color:#252424;
+}
+.hi{
+    display: none;
+}
+.hello{
+    border-radius: 10px ;
+    border:1px dashed #2e50e9 ;
+    color:black;
+    width: 100px;
+}
+.hello:hover {
+    color:rgb(64, 230, 64);
+    border:1px dashed rgb(51, 250, 51);
+    justify-content: center;
+}
+.table-container img{
+    align-items: left;
+    justify-content: left;
+    width:80px;
+    color: black;
+    padding-top: 8px ;
+    margin-left:40px;
+}
+.image-container{
+    display: inline-flex;
+    margin-left: 10px;
+    justify-content: center;
+    padding-left: 30px;
+
+}
+#click-image{
+    text-align: center;
+    padding-top: 45px;
+}
+.space{
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.center{
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 150px ;
+
+}
+.button{
+    display: flex;
+    /* background-color: rgb(38, 38, 226); */
+    color:black;
+    /* border:1px solid rgb(38, 38, 226); */
+  
+}
+.button-click{
+    display: flex;
+    background-color: #1737c2;
+    border-radius: 10px 12px 10px 12px;
+    padding-top:5px ;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+button{
+    display: inline;
+    background-color: #1737c2;
+    color:white;
+    padding: auto;
+    margin: auto;
+    border: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.TEXT-COLOR{
+    color: rgb(41, 184, 41);
+}
+.image-background{
+background-image: url(https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?t=st=1730613151~exp=1730616751~hmac=5f47eff5eaad855b7b9b1dba568fbf832e221bad87051b999d158433b79b2553&w=826);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
